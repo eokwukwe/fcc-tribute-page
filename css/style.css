@@ -1,0 +1,28 @@
+.navbar-brand img {
+	height: 50px;
+	width: 220px;
+}
+
+.navbar {
+	background-color: #006400;
+	height: 50px;
+}
+
+.container-container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		justify-content: center;
+	}
+	.navbar .h4 {
+		font-size: 4vw;
+	}
+
+	.container-fluid h1 {
+		font-size: 50px;
+	}
+
+}
